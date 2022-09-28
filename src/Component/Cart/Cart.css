@@ -1,0 +1,67 @@
+.cart{
+    position: sticky;
+    top: 30px;
+    padding: 20px;
+}
+.cart-profile{
+    display: flex;
+    align-items: center;
+    background-color: #E0FFFF;
+    padding: 5px;
+}
+.cart-profile img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.cart-profile div p{
+    margin: 0;
+}
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.cart-info h4{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.break-count{
+    display: flex;
+    justify-content: space-around;
+    background-color: #B0E0E6;
+    padding: 15px;
+    border-radius: 5px;
+}
+.break-count button{
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.break-count div{
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 50px;
+}
+.exercise-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 10px 0;
+}
+.break-info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D8BFD8;
+    border-radius: 7px;
+    padding: 10px 0;
+}
+.cart-btn{
+    margin-top: 20px;
+    background-color: lightseagreen;
+}

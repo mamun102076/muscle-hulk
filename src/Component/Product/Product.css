@@ -1,0 +1,26 @@
+.product{
+    border: 1px solid #DCDCDC;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 7px;
+} 
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+button{
+    background-color: #cc3366;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 8px 0;
+}
+button p{
+    margin: 0;
+}

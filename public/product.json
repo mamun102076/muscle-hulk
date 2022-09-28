@@ -1,0 +1,58 @@
+[
+ {
+    "id": "1",
+    "name": "Deadlift ",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 50,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "2",
+    "name": "Back squat",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 42,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "3",
+    "name": "Bench Press",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 37,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "4",
+    "name": "Dumbbell romanian deadlift",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 43,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "5",
+    "name": "Kettlebell swing",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 60,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "6",
+    "name": "Suspended pushup",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 31,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  },
+ {
+    "id": "7",
+    "name": "Pullup",
+    "Text": "Arguably deadlift is the king of all exercises, the deadlift hits every major muscle group hard, and is perhaps the greatest test of strength.",
+    "Age": 32,
+    "Time": "20s",
+    "img": "https://ridzeal.com/wp-content/uploads/2021/07/Why-Gym-May-no-Longer-be-Mandatory-in-2021.jpg"
+  }
+]
