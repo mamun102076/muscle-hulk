@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import man from '../../images/man.JPG'
 import addToLocal from '../../Utilities/localDb';
 import './Cart.css'
@@ -9,6 +9,12 @@ const Cart = (props) => {
         setButton(button)
         addToLocal(button)
     }
+    useEffect(()=>{
+        const adiba = localStorage.getItem('shopping-cart')
+        const newCart = []
+        newCart.push(adiba)
+        setButton(newCart)
+    },[])
     const {cart} = props
     let time = 0
     for(let product of cart){

@@ -1,4 +1,5 @@
 const addToLocal = (button) => {
-    localStorage.setItem('shopping-cart',button)
+    const storedCart = localStorage.setItem('shopping-cart',button)
+    return storedCart
 }
 export default addToLocal
