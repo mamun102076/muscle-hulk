@@ -13,8 +13,10 @@ const Shop = () => {
     return (
         <div className='shop-container'>
             <div className='product-container'>
-                <h1><img src={logo} alt=""/>Muscle Hulk</h1>
-                <p>Select today’s exercise</p>
+                <div className='product-logo'>
+                    <img src={logo} alt=""/>
+                    <p>Muscle Hulk</p>
+                </div>
                 <div className='single-product-item'>
                 {
                     product.map((product)=><Product product={product}></Product>)

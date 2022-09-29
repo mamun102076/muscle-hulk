@@ -5,9 +5,21 @@
 .product-container{
     margin: 50px;
 }
-.product-container h1 img{
+.product-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.product-logo img{
     height: 50px;
     width: 50px;
+    margin-right: 14px;
+    border-radius: 2px;
+}
+.product-logo p{
+    font-weight: 700;
+    font-size: 25px;
+    color: #8B008B;
 }
 .single-product-item{
     display: grid;
