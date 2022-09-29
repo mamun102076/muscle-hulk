@@ -31,7 +31,7 @@ const Cart = (props) => {
                 <img src={man} alt="" />
                 <div>
                     <p>Abdullah Al Mamun</p>
-                    <p>Georgia,USA</p>
+                    <p>Dhaka,Bangladesh</p>
                 </div>
             </div>
             <div className='cart-info'>
