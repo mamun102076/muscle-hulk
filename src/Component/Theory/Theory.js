@@ -3,6 +3,7 @@ import './Theory.css'
 const Theory = () => {
     return (
         <div className='theory'>
+            <h1><u>Question-Answer</u></h1>
             <div>
                 <p className='theory-name'>1 - How does react work</p>
                 <p className='theory-details'>ans : ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
