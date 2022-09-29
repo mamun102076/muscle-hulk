@@ -36,19 +36,12 @@ const Cart = (props) => {
             </div>
             <div className='cart-info'>
                 <div>
-                    <h4>75kg</h4>
-                    <p>Weight</p>
-                </div>
-                <div>
-                    <h4>6.5</h4>
-                    <p>Height</p>
-                </div>
-                <div>
-                    <h4>25yrs</h4>
-                    <p>Age</p>
+                    <h4>Height : 5.7</h4>
+                    <h4>Weight : 60kg</h4>
+                    <h4>Age : 31</h4>
                 </div>
             </div>
-            <p>Add A Break</p>
+            <p>Break count:</p>
             <div className='break-count'>
                 <button onClick={clickButton}>10</button>
                 <button onClick={clickButton}>20</button>
@@ -56,7 +49,7 @@ const Cart = (props) => {
                 <button onClick={clickButton}>40</button>
                 <button onClick={clickButton}>50</button>
             </div>
-            <p>Exercise Details</p>
+            <p>Exercise Details:</p>
             <div className='exercise-info'>
                 <div>Exercise time</div>
                 <div>{time} seconds</div>

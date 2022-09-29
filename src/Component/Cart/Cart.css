@@ -1,13 +1,15 @@
 .cart{
     position: sticky;
-    top: 30px;
+    top: 10px;
     padding: 20px;
 }
 .cart-profile{
     display: flex;
     align-items: center;
-    background-color: #E0FFFF;
-    padding: 5px;
+    background-color: cadetblue;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
 }
 .cart-profile img{
     height: 60px;
@@ -19,15 +21,12 @@
     margin: 0;
 }
 .cart-info{
-    display: flex;
-    justify-content: space-around;
-    background-color: cornflowerblue;
+    padding: 10px;
+    background-color: lightpink;
     border-radius: 6px;
     margin-top: 30px;
-}
-.cart-info h4{
-    margin-bottom: 0;
-    margin-top: 10px;
+    color: #000;
+    margin-bottom: 32px;
 }
 .break-count{
     display: flex;
@@ -35,6 +34,7 @@
     background-color: #B0E0E6;
     padding: 15px;
     border-radius: 5px;
+    margin-bottom: 35px;
 }
 .break-count button{
     border-radius: 50px;
@@ -49,17 +49,21 @@
 .exercise-info{
     display: flex;
     justify-content: space-around;
-    background-color: antiquewhite;
+    background-color: darkslateblue;
+    color: #fff;
     margin-bottom: 20px;
     border-radius: 7px;
     padding: 10px 0;
+    font-weight: 700;
 }
 .break-info{
     display: flex;
     justify-content: space-around;
-    background-color: #D8BFD8;
+    background-color: rgba(223, 132, 13, 0.904);
     border-radius: 7px;
     padding: 10px 0;
+    color: #fff;
+    font-weight: 700;
 }
 .cart-btn{
     margin-top: 20px;
