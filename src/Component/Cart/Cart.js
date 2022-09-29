@@ -1,14 +1,20 @@
 import React from 'react';
 import man from '../../images/man.JPG'
 import './Cart.css'
-const Cart = () => {
+const Cart = (props) => {
+    const {cart} = props
+    console.log(cart)
+    let time = 0
+    for(let product of cart){
+        time = time + product.time
+    }
     return (
         <div className='cart'>
             <div className='cart-profile'>
                 <img src={man} alt="" />
                 <div>
-                    <p>Zahid Hossain</p>
-                    <p>Sydney, Australia</p>
+                    <p>Abdullah Al Mamun</p>
+                    <p>Georgia,USA</p>
                 </div>
             </div>
             <div className='cart-info'>
@@ -36,11 +42,11 @@ const Cart = () => {
             <p>Exercise Details</p>
             <div className='exercise-info'>
                 <div>Exercise time</div>
-                <div>200 seconds</div>
+                <div>{time} seconds</div>
             </div>
             <div className='break-info'>
                 <div>Break time</div>
-                <div>15 seconds</div>
+                <div>0 seconds</div>
             </div>
             <button className='cart-btn'>
                 <p>Total Activity</p>
