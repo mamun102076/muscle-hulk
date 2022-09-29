@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import man from '../../images/man.JPG'
+import addToLocal from '../../Utilities/localDb';
 import './Cart.css'
 const Cart = (props) => {
+    const [button,setButton] = useState([])
+    const clickButton = (event) => {
+        const button = event.target.innerText
+        setButton(button)
+        addToLocal(button)
+    }
     const {cart} = props
-    console.log(cart)
     let time = 0
     for(let product of cart){
         time = time + product.time
@@ -33,11 +39,11 @@ const Cart = (props) => {
             </div>
             <p>Add A Break</p>
             <div className='break-count'>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={clickButton}>10</button>
+                <button onClick={clickButton}>20</button>
+                <button onClick={clickButton}>30</button>
+                <button onClick={clickButton}>40</button>
+                <button onClick={clickButton}>50</button>
             </div>
             <p>Exercise Details</p>
             <div className='exercise-info'>
@@ -46,7 +52,7 @@ const Cart = (props) => {
             </div>
             <div className='break-info'>
                 <div>Break time</div>
-                <div>0 seconds</div>
+                <div>{button} seconds</div>
             </div>
             <button className='cart-btn'>
                 <p>Total Activity</p>
