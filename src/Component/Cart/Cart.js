@@ -2,8 +2,13 @@ import React, { useEffect, useState } from 'react';
 import man from '../../images/man.JPG'
 import addToLocal from '../../Utilities/localDb';
 import './Cart.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Cart = (props) => {
     const [button,setButton] = useState([])
+    const notify = () => toast.info("congratulations!!! u have succeed",{
+        position: "top-center",
+    });
     const clickButton = (event) => {
         const button = event.target.innerText
         setButton(button)
@@ -60,8 +65,9 @@ const Cart = (props) => {
                 <div>Break time</div>
                 <div>{button} seconds</div>
             </div>
-            <button className='cart-btn'>
+            <button onClick={notify} className='cart-btn'>
                 <p>Total Activity</p>
+                <ToastContainer></ToastContainer>
             </button>
         </div>
     );
