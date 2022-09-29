@@ -4,12 +4,12 @@ const Product = ({product}) => {
     console.log(product)
     return (
         <div className='product'>
-            <img src={product.img} alt="" />
+            <img src={product.image} alt="" />
             <div>
                 <h4>{product.name}</h4>
-                <p>{product.Text}</p>
-                <p>Age: {product.Age}</p>
-                <p>Time: {product.Time}</p>
+                <p>{product.text}</p>
+                <p>Age: {product.age}</p>
+                <p>Time: {product.time}</p>
             </div>
             <button>
                 <p>Add to list</p>

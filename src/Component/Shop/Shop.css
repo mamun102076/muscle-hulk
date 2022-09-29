@@ -1,5 +1,6 @@
 .shop-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 7fr 2fr;
     background-color: skyblue;
 }
 .product-container{
